@@ -1,4 +1,4 @@
-// import "./assets/globals.css";
+import "./assets/global.css";
 import Todo from "./TODO/Todo"
 
 function App() {

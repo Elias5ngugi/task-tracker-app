@@ -4,6 +4,7 @@ import useTasksStore from "../store/tasksStore";
 
 function TodoItems() {
   const tasks = useTasksStore((state) => state.tasks);
+
   return (
     <section className="todo-items-container">
       {tasks.map((currentTask) => (
@@ -12,6 +13,7 @@ function TodoItems() {
           key={currentTask.id}
           title={currentTask.taskTitle}
           description={currentTask.taskDescription}
+          category={currentTask.taskCategory} 
           complete={currentTask.completed}
         />
       ))}

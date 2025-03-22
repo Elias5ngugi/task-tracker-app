@@ -1,5 +1,1 @@
-@font-face {
-    font-family: 'Josefin Sans';
-    src: url('/fonts/JosefinSans-Regular.woff2') format('woff2');
-  }
-  
+@import url('https://cdnjs.cloudflare.com/ajax/libs/fontsource-josefin-sans/4.2.2/index.min.css');
